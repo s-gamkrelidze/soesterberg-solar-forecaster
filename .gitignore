@@ -1,0 +1,44 @@
+# ──────────────────────────────────────────────────────────────
+#  Data — NOT tracked in git (multi-GB measurements + third-party
+#  weather). See README §2 "Data availability" for download links.
+# ──────────────────────────────────────────────────────────────
+data/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Model / data artifacts
+*.pkl
+*.joblib
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── Streamlit ──
+.streamlit/secrets.toml
+
+# ── Secrets / env files ──
+.env
+.env.*
+*.key
+
+# ── OS / editor cruft ──
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
