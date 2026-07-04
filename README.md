@@ -1,4 +1,4 @@
-# ☀️ Soesterberg Solar PV Generation Forecaster (Plan B)
+# ☀️ Solar PV Generation Forecaster
 
 **Operational machine-learning forecaster for rooftop photovoltaic (PV) generation at the Soesterberg (NL) site.**
 It turns a weather forecast into a probabilistic solar-energy forecast (next 14 days at 15-minute resolution, plus a seasonal outlook to 12 months), then layers on optimization, alerting, financial reporting, and explainability.
